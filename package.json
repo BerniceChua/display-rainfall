@@ -1,0 +1,26 @@
+{
+  "name": "display-rainfall",
+  "version": "1.0.0",
+  "description": "Create a service that shows today's total rainfall for counties that produce a lot of soybeans. The user can choose a state to filter the results.",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BerniceChua/display-rainfall.git"
+  },
+  "keywords": [
+    "rainfall",
+    "county",
+    "state",
+    "display",
+    "d3"
+  ],
+  "author": "Bernice Anne W. Chua",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BerniceChua/display-rainfall/issues"
+  },
+  "homepage": "https://github.com/BerniceChua/display-rainfall#readme"
+}
