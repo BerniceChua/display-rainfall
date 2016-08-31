@@ -12,7 +12,7 @@ const OfflinePlugin = require('offline-plugin')
 
 
 module.exports = {
-  entry: "./app/index.js",
+  entry: ["./app.js"],
   output: {
     filename: "./public/bundle.js"
   },
@@ -25,7 +25,7 @@ module.exports = {
     loaders: [{
       test: /\.jsx?$/,
       exclude: /(node_modules|bower_components)/,
-      loader: 'babel',
+      loader: ['react-hot-loader', 'babel-loader'],
       query: {
         presets: ['react', 'es2015']
       }

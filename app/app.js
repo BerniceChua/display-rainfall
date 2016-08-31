@@ -1,16 +1,9 @@
-const React = require('react')
-const ReactDOM = require('react-dom')
-const {Router} = require('react-router')
-const routes = require('./config/routes')
+import React from 'react'
+import ReactDOM from 'react-dom'
+import {Router} from 'react-router'
+import routes from './app/config/routes'
 
-const App = React.createClass({
-  render: function() {
-    return (
-      <div>
-        Hello from the other siiiii~~~~iide!!!
-      </div>
-    )
-  }
-})
-
-module.exports = Main
+ReactDOM.render(
+  <Router>{routes}</Router>,
+  document.getElementById('app')
+)
