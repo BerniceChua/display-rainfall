@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/BerniceChua/display-rainfall/issues"
   },
-  "homepage": "https://github.com/BerniceChua/display-rainfall#readme"
+  "homepage": "https://github.com/BerniceChua/display-rainfall#readme",
+  "devDependencies": {
+    "webpack": "^1.13.2"
+  }
 }
