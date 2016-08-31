@@ -4,7 +4,8 @@
   "description": "Create a service that shows today's total rainfall for counties that produce a lot of soybeans. The user can choose a state to filter the results.",
   "main": "index.js",
   "scripts": {
-    "test": "karma start"
+    "test": "karma start",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
