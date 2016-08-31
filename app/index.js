@@ -1,3 +1,13 @@
-const component = require('./component');
+const React = require('react')
 
-document.body.appendChild(component());
+const Main = React.createClass({
+  render: function() {
+    return (
+      <div>
+        Hello from the other siiiii~~~~iide!!!
+      </div>
+    )
+  }
+})
+
+module.exports = Main
