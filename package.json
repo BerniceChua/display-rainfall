@@ -76,7 +76,8 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "mocha './src/**/*.spec.js'"
+    "test": "mocha './src/**/*.spec.js' --compilers babel-core/register",
+    "test:watch": "npm test -- -w"
   },
   "repository": {
     "type": "git",
